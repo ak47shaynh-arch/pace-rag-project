@@ -21,8 +21,8 @@ def loader(path):
             if text:
                 #if there is text existing in the text indeed , we do
                 all_text.append((page_num, text))
-        final_text=clean_all_pages(all_text)
-        return final_text
+    final_text=clean_all_pages(all_text)
+    return final_text
         
 #just for confirmation lets do
 print(f"Loaded this many pages succesfully: {len(loader(IS_456_2000.pdf))}")
