@@ -4,6 +4,7 @@
 #first ofall install the pdf plumber and os modules through pip, as : pip install pdfplubmer os
 import pdfplubmer
 import os
+from cleanerf_for_loaded_text import clean_all_pages
 def loader(path):
     #first lets check the pdf we are going to work with exists in th esame folder as the .py file
     if not os.path.exists(pdfpath):
